@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent objIntent = new Intent(Intent.ACTION_VIEW);
                 objIntent.setData(Uri.parse("https://youtu.be/rdvEBrFAnfs"));
                 startActivity(objIntent);
-            }       //event
+            }       //events
         });
     }
 
